@@ -12,7 +12,7 @@ int main()
 
 	do
 	{
-		printf("ì •ë‹µì„ ì¶”ì¸¡í•˜ì—¬ ë³´ì‹œì˜¤: ");
+		printf("Á¤´äÀ» ÃßÃøÇÏ¿© º¸½Ã¿À: ");
 		scanf("%d", &guess);
 
 		tries++;
@@ -23,7 +23,7 @@ int main()
 			printf("UP\n");
 	} while (guess != answer);
 
-	printf("ì¶•í•˜í•©ë‹ˆë‹¤.ì‹œë„íšŸìˆ˜ = %d \n", tries);
+	printf("ÃàÇÏÇÕ´Ï´Ù.½ÃµµÈ½¼ö = %d \n", tries);
 
 	return 0;
 }
