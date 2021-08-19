@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main()
@@ -7,7 +7,7 @@ int main()
 
 	do
 	{
-		printf("¸·´ëÀÇ ³ôÀÌ(Á¾·á: -1): ");
+		printf("ë§‰ëŒ€ì˜ ë†’ì´(ì¢…ë£Œ: -1): ");
 		scanf("%d", &n);
 
 		if (n == -1)

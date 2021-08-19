@@ -1,11 +1,11 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main()
 {
 	int x;
 
-	printf("Ä«¿îÅÍÀÇ ÃÊ±â°ªÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì¹´ìš´í„°ì˜ ì´ˆê¸°ê°’ì„ ìž…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &x);
 
 	for (int i = 0; x > i; x--) {

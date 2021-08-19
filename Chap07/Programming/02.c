@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+О╩©#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main()
@@ -14,7 +14,7 @@ int main()
 		}
 		i++;
 	}
-	printf("1╨нем 100 ╩Гюлюг ╦П╣Г 3юг ╧Х╪Жюг гую╨ %dют╢о╢ы.", sum);
+	printf("1К╤─М└╟ 100 Л┌╛Л²╢Л²≤ К╙╗К⌠═ 3Л²≤ К╟╟Л┬≤Л²≤ М∙╘Л²─ %dЛ·┘К▀┬К▀╓.", sum);
 
 	return 0;
 }
