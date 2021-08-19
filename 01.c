@@ -1,13 +1,14 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
-	int x = 0x12345678;
-	unsigned char* xp = (char*)&x;
-
-	printf("ë°”ì´íŠ¸ìˆœì„œ: %x %x %x %x\n", xp[0], xp[1], xp[2], xp[3]);
+	int i = 10;
+	char c = 69;
+	double f = 12.3;
+	
+	printf("iÀÇ ÁÖ¼Ò : %u\n", &i);
+	printf("cÀÇ ÁÖ¼Ò : %u\n", &c);
+	printf("fÀÇ ÁÖ¼Ò : %u\n", &f);
 
 	return 0;
 }
-
-//ë¦¬í‹€ ì—”ë””ì–¸ (Little-endian)
