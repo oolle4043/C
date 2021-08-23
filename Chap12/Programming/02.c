@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <string.h>
 #include <stdio.h>
 #define SIZE 100
@@ -9,8 +9,8 @@ int main()
 {
 	char str[SIZE];
 
-	printf("°ø¹é ¹®ÀÚ°¡ ÀÖ´Â ¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À: ");
-	gets(str);	// ¹®ÀÚ¿­À» ÀÔ·Â ¹Ş´Â ÇÔ¼ö
+	printf("ê³µë°± ë¬¸ìê°€ ìˆëŠ” ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
+	gets(str);	// ë¬¸ìì—´ì„ ì…ë ¥ ë°›ëŠ” í•¨ìˆ˜
 
 	space_delete(str);
 

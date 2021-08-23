@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define SIZE 100
 
@@ -6,7 +6,7 @@ int main()
 {
 	char s[SIZE] = { '\0'};
 
-	printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	gets(s);
 
 	for (int i = 65; i <= 90; i++)
