@@ -17,7 +17,7 @@ int main()
 
 int count(int x)
 {
-	static c;
+	static int c;
 
 	c++;
 
