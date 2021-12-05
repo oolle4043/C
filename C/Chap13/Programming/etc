@@ -1,0 +1,39 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct student {
+	int number;
+	char name[10];
+	double grade;
+}S;
+
+int main()
+{
+	int size;
+
+	printf("����� �Է��Ͻðڽ��ϱ�? ");
+	scanf("%d", &size);
+	printf("\n");
+	
+	S* list = malloc(sizeof(S) * size);
+
+	for (int i = 0; i < size; i++) {
+		printf("��ȣ�� �Է��ϼ���: ");
+		scanf("%d", &list[i].number);
+		printf("�̸��� �Է��ϼ���: ");
+		scanf("%s", &list[i].name);
+		printf("������ �Է��ϼ���: ");
+		scanf("%lf", &list[i].grade);
+		printf("============================\n");
+	}
+
+	for (int i = 0; i < size; i++) {
+		printf("��ȣ: %d, �̸�: %s, ����: %lf\n", list[i].number, list[i].name, list[i].grade);
+	 }
+
+	free(list);
+
+	return 0;
+}
