@@ -36,7 +36,7 @@ int count = 0;
 void setup() {
   
   servo.attach(2); //연결핀
-  Serial.begin(9600);
+  Serial.begin(9600);       // 시리얼 속도 설정
   
   servo.write(angle);  // 각도
   delay(1000);
@@ -49,7 +49,6 @@ void setup() {
   pinMode(LeftMotor_3_pin, OUTPUT);
   pinMode(LeftMotor_4_pin, OUTPUT);
   pinMode(LeftMotor_E_pin, OUTPUT);
-  Serial.begin(9600);       // 시리얼 속도 설정
   pinMode(echoPin, INPUT);   // echoPin 입력
   pinMode(trigPin, OUTPUT);  // trigPin 출력
 }
