@@ -20,7 +20,8 @@ NewPing sonar(trigPin, echoPin, MAX_DISTANCE);
 
 int PWM = 120; // 최소 120
 
-void movePattern();
+void movePattern_Right();
+void movePattern_Left()
 void Cleaner_Go();
 void Cleaner_Back();
 void Cleaner_Left();
