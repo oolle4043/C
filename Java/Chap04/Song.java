@@ -10,8 +10,8 @@ public class Song {
 	}
 	public static void main(String[] args) {
 		Song mySong = new Song("Nessun Dorma");
-		Song yourSong = new Song("°øÁÖ´Â Àá ¸ø ÀÌ·ç°í");
-		System.out.println("³» ³ë·¡´Â " + mySong.title);
-		System.out.println("³Ê ³ë·¡´Â " + yourSong.title);
+		Song yourSong = new Song("ê³µì£¼ëŠ” ì  ëª» ì´ë£¨ê³ ");
+		System.out.println("ë‚´ ë…¸ë˜ëŠ” " + mySong.title);
+		System.out.println("ë„ˆ ë…¸ë˜ëŠ” " + yourSong.title);
 	}
 }
