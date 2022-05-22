@@ -27,7 +27,7 @@ public class NamedCircle extends Circle {
 	}
 
 	public void show() {
-		System.out.print(name + ", " + "¹İÁö¸§ = " + getRadius());
+		System.out.print(name + ", " + "Â¹ÃÃÃ¶Â¸Â§ = " + getRadius());
 	}
 
 	public static void main(String[] args) {
