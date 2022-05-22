@@ -25,24 +25,24 @@ public class PhoneMabager {
 		String name, tel, search;
 		boolean flag;
 		
-		System.out.print("ÀÎ¿ø¼ö>> ");
+		System.out.print("ì¸ì›ìˆ˜>> ");
 		num = sc.nextInt();
 		
 		Phone[] phoneArray = new Phone[num];
 		
 		for(int i = 0; i<phoneArray.length; i++) {
-			System.out.print("ÀÌ¸§°ú ÀüÈ­¹øÈ£(¹øÈ£´Â ¿¬¼ÓÀûÀ¸·Î ÀÔ·Â)>> ");
+			System.out.print("ì´ë¦„ê³¼ ì „í™”ë²ˆí˜¸(ë²ˆí˜¸ëŠ” ì—°ì†ì ìœ¼ë¡œ ìž…ë ¥)>> ");
 			phoneArray[i] = new Phone();
 			name = sc.next();
 			tel = sc.next();
 			
 			phoneArray[i].setArray(name, tel);
 		}
-		System.out.println("ÀúÀåµÇ¾ú½À´Ï´Ù...");
+		System.out.println("ì €ìž¥ë˜ì—ˆìŠµë‹ˆë‹¤...");
 		
 		while(true) {
 			flag = false;
-			System.out.print("°Ë»öÇÒ ÀÌ¸§>> ");
+			System.out.print("ê²€ìƒ‰í•  ì´ë¦„>> ");
 			search = sc.next();
 			
 			if(search.equals("exit")) {
@@ -52,12 +52,12 @@ public class PhoneMabager {
 			for(int i = 0; i < phoneArray.length; i++) {
 				if(search.equals(phoneArray[i].getName())) {
 					flag = true;
-					System.out.println(phoneArray[i].getName() + "ÀÇ ¹øÈ£´Â " + phoneArray[i].getTel());
+					System.out.println(phoneArray[i].getName() + "ì˜ ë²ˆí˜¸ëŠ” " + phoneArray[i].getTel());
 					break;
 				}
 			}
 			if(flag == false)
-				System.out.println(search + " (ÀÌ)°¡ ¾ø½À´Ï´Ù.");
+				System.out.println(search + " (ì´)ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		}		
 		
 		sc.close();
