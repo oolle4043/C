@@ -28,7 +28,7 @@ public class RectArray {
 		int w, h;
 		
 		for(int i = 0; i < rectArray.length; i++) {
-			System.out.print((i+1) + " ³Êºñ¿Í ³ôÀÌ >>");
+			System.out.print((i+1) + " ë„ˆë¹„ì™€ ë†’ì´ >>");
 			w = sc.nextInt();
 			h = sc.nextInt();
 			
@@ -36,9 +36,9 @@ public class RectArray {
 			sum += rectArray[i].getArea();
 		}
 		
-		System.out.println("ÀúÀåÇÏ¿´½À´Ï´Ù...");
+		System.out.println("ì €ì¥í•˜ì˜€ìŠµë‹ˆë‹¤...");
 		
-		System.out.println("»ç°¢ÇüÀÇ ÀüÃ¼ ÇÕÀº " + sum);
+		System.out.println("ì‚¬ê°í˜•ì˜ ì „ì²´ í•©ì€ " + sum);
 		
 		sc.close();
 	}
