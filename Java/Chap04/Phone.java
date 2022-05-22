@@ -27,16 +27,16 @@ public class Phone {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("ÀÌ¸§°ú ÀüÈ­¹øÈ£ ÀÔ·Â >>");
+		System.out.print("ì´ë¦„ê³¼ ì „í™”ë²ˆí˜¸ ì…ë ¥ >>");
 		user1.name = sc.next();
 		user1.tel = sc.next();
 		
-		System.out.print("ÀÌ¸§°ú ÀüÈ­¹øÈ£ ÀÔ·Â >>");
+		System.out.print("ì´ë¦„ê³¼ ì „í™”ë²ˆí˜¸ ì…ë ¥ >>");
 		user2.name = sc.next();
 		user2.tel = sc.next();
 		
-		System.out.println(user1.getName() + "ÀÇ ¹øÈ£ " + user1.getTel());
-		System.out.println(user2.getName() + "ÀÇ ¹øÈ£ " + user2.getTel());
+		System.out.println(user1.getName() + "ì˜ ë²ˆí˜¸ " + user1.getTel());
+		System.out.println(user2.getName() + "ì˜ ë²ˆí˜¸ " + user2.getTel());
 		
 		sc.close();
 	}
