@@ -5,9 +5,9 @@ int Relaypin4 = 4;
 
 void setup() {
   pinMode(Relaypin1, OUTPUT);
-  pinMode(Relaypin2, OUTPUT);
-  pinMode(Relaypin3, OUTPUT);
-  pinMode(Relaypin4, OUTPUT);
+//  pinMode(Relaypin2, OUTPUT);
+//  pinMode(Relaypin3, OUTPUT);
+//  pinMode(Relaypin4, OUTPUT);
 }
 
 void loop() {
