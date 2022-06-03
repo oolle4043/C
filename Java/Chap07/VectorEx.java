@@ -3,21 +3,26 @@ import java.util.*;
 public class VectorEx {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Vector<Double> v = new Vector<Double>();
+		Vector<Integer> v = new Vector<Integer>();
 
-		for (int i = 0; i < 5; i++) {
-			v.add(Double.valueOf(sc.next()));
+		System.out.println("2000 ~ 2009년까지 1년 단위로 키(cm)를 입력");
+
+		for (int i = 0; i < 10; i++) {
+			v.add(Integer.valueOf(sc.next()));
 		}
-		double max = v.get(0);
-		
-		for(int i = 1; i < v.size(); i++) {
-			if(max < v.get(i)) {
-				max = v.get(i);
+
+		double max = 0;
+		int year = 0;
+		for (int i = 0; i < v.size() - 1; i++) {
+			int temp = v.get(i + 1) - v.get(i);
+			if (temp > max) {
+				max = temp;
+				year = i;
 			}
 		}
-		System.out.println("가장 큰 수는 " + max);
-		
+		year += 2000;
+		System.out.println("가장 키가 많이 자란 년도는 " + year + "년 " + max + "cm");
+
 		sc.close();
 	}
-
 }
