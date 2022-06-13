@@ -10,8 +10,8 @@ import json
 
 
 def job():
-   url_device = "http://13.209.110.72/api/arduino/serial"
-   url_login = "http://13.209.110.72/api/arduino/login"
+   url_device = "http://주소/api/arduino/serial"
+   url_login = "http://주소/api/arduino/login"
 
    headers ={
       'Content-Type': 'application/json;charset=utf-8',
@@ -39,7 +39,7 @@ def job():
    token_type = res_login['token_type']
    expires_in = res_login['expires_in']
 
-   url_image = "http://13.209.110.72/api/User/"+str(userID)+"/arduino/imgpush"
+   url_image = "http://주소/api/User/"+str(userID)+"/arduino/imgpush"
 
 
    camera = PiCamera()
